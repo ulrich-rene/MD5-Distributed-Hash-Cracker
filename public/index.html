@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>MD5 Hash Cracker</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" type="image/png" href="/favicon.ico"/>
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
+      <script src="js/websocketlogic.js" defer></script>
+   </head>
+   <body>
+      <div class="container-contact100">
+         <div class="wrap-contact100">
+            <span class="contact100-form-title">
+            MD5-Hash Cracker!
+            </span>
+            <div class="wrap-input100 " style="text-align: center;">
+               <span class="label-input100">Connect to our distributed System!</span>
+               <div class="container-contact100-form-btn">
+                  <div class="wrap-contact100-form-btn">
+                     <div class="contact100-form-bgbtn"></div>
+                     <button class="contact100-form-btn" id="connectButton">
+                     <span>
+                     Connect
+                     <i class="fa fa-sign-in
+                        m-l-7" aria-hidden="true"></i>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+            <div style="text-align: center;">
+               <span class="label-input100">Current Status:</span>
+               <div class="current-status">
+                  <div class="status-text" id="status-text">Offline!</div>
+                  <span class="circle" id="circle">
+                  </span>
+               </div>
+            </div>
+            <section style="text-align: center;">
+               <br>
+               <label>Your MD5-Hash:</label>
+               <input id="message" class="input-field" size="30" />
+               <div class="container-contact100-form-btn wrap-input100">
+                  <div class="wrap-contact100-form-btn">
+                     <div class="contact100-form-bgbtn"></div>
+                     <button class="contact100-form-btn" id="submitHash">
+                     <span>
+                     Submit Hash
+                     <i class="fa fa-rocket m-l-7" aria-hidden="true"></i>
+                     </span>
+                     </button>
+                  </div>
+               </div>
+            </section>
+            <section id="result-sec">
+               <div class="">
+                  <h5>The cracked Result:</h5>
+                  <div id="result"></div>
+               </div>
+            </section>
+            <section style="text-align: center;">
+               <span class="label-input100">Detailed Logging:</span>
+               <textarea id="log" rows="12" cols="150">Logging goes here...</textarea>
+            </section>
+         </div>
+      </div>
+   </body>
+</html>

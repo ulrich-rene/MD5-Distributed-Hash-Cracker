@@ -1,0 +1,23 @@
+{
+  "name": "minimalwebsocketserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "jf",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.6",
+    "circular-json": "^0.5.9",
+    "crypto-js": "^4.0.0",
+    "hashlib": "^1.0.1",
+    "node-cache": "^5.1.2",
+    "pg": "^8.3.3",
+    "python-shell": "^2.0.1",
+    "websocket": "^1.0.31",
+    "zeromq": "^6.0.0-beta.6"
+  }
+}
