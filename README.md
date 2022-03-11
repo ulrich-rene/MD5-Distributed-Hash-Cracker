@@ -1,5 +1,4 @@
-# <font size="8">Distributed Computing | Project</font>
-## By Team 3 - ITM18,SS20
+# <font size="8">Distributed MD5 Hash Cracker using RabbitMQ</font>
 
 ### <font size="5"><u>Abstract</u></font>
 <font size="3">
@@ -44,3 +43,7 @@ Distribute work using a message broker to more than three different types of wor
 ![Cracked Hash in Frontend](readme/images/cracked-hash.png)
 
 ![RabbitMQ Backend](readme/images/rabbitmq-backend.png)
+
+### <font size="5"><u> Heroku Deployment </u></font>
+
+* Added Procfile to run a 2 free Heroku Dynos (NPM & the Python Database Consumer using PostgreSQL) 
