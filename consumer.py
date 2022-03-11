@@ -38,7 +38,8 @@ conn = pika.BlockingConnection(pika.URLParameters(url))
 channel = conn.channel()
 channel.queue_declare(queue=crackqueue)
 
-channel.basic_consume(queue = crackqueue, on_message_callback=crack_callback)
+channel.basic_consume(queue = crackqueue,
+                     on_message_callback=crack_callback)
 channel.start_consuming()
 conn.close()
 print("Done")
